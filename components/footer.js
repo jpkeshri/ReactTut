@@ -5,8 +5,16 @@ export default class Footer extends React.Component {
    render() {
 	//const age = this.props.age;
       return (
-         <div>
-           <h1>This is old new footer and My  fhgjfh wwww age is : {this.props.data.age}</h1>
+         <div> 
+         <ul> 
+         <li>home</li>
+         <li>contact</li>
+         <li>about</li>
+         
+         </ul>
+
+
+          <h1>This is old new footer and My  fhgjfh wwww age is : {this.props.data.age}</h1>
 
          </div>
       );
