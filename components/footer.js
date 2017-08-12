@@ -6,11 +6,14 @@ export default class Footer extends React.Component {
 	//const age = this.props.age;
       return (
          <div> 
-         <ul> 
-         <li>home</li>
-         <li>contact</li>
-         <li>about</li>
-         
+         <ul className="navbar"> 
+         <li><a href="#">home</a></li>
+         <li> <a href="#"><contact</a></li>
+         <li> <a href="#">about<a></li>
+         <li>< a href ="#">rerult<a></li>
+         <li><a href="#">score</a></li>
+         <li> command</li>
+
          </ul>
 
 
