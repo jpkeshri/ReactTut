@@ -13,33 +13,36 @@ export default class Profile extends React.Component {
     <div class="row">
         <div className="col-md-4">
             <div className="thumbnail">
-                <a href="image/boats_painted_x.jpg" target="_blank"/>
-                    <img  className="img-responsive" src="..public/boats_painted_x.jpg" alt="idjhjh" >
+                <a href="image/boats_painted_x.jpg" target="_blank">
+                    <img className="img-responsive" src="../public/profile.jpg" alt="idjhjh" />
                         <div className="caption"> <p> this  is first image of gallery</p>
                         </div>
-                               </a>
-
-            </div>
-        </div>
-                <div className="row">
+                        </a>
+                  </div>
+                           
+           </div>
+        
+                
         <div className="col-md-4">
             <div className="thumbnail">
-                <a href="image/beautiful_forest_waterfall_2.jpg" target="_blank"/>
-                    <img  className="img-responsive" src="..public/beautiful_forest_waterfall_2.jpg" alt="idjhjh" >
+                <a href="image/beautiful_forest_waterfall_2.jpg" target="_blank">
+                    <img className="img-responsive" src="../public/beautiful_forest_waterfall_2.jpg" alt="idjhjh" />
                         <div className="caption"> <p> this  is first image of gallery</p>
                         </div>
-                </a>
-            </div>
+                        </a>
+                    </div>
+            
         </div>
-                <div className="row">
+            
         <div className="col-md-4">
             <div className="thumbnail">
-                <a href="image/forest_lake_2.jpg"" target="_blank">
-                    <img  className="img-responsive" src="..public/forest_lake_2.jpg" alt="idjhjh" />
+                <a href="image/forest_lake_2.jpg" target="_blank">
+                    <img className="img-responsive" src="../public/forest_lake_2.jpg" alt="idjhjh" />
                         <div className="caption"> <p> this  is first image of gallery</p>
                         </div>
-                </a>
-            </div>
+                        </a>
+                </div>
+            
         </div>
      </div> 
 			</div>
