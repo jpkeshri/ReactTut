@@ -4,7 +4,7 @@ export default class NavBar extends React.Component {
 
 	render() {
 		return(
-			<nav className="navbar navbar-inverse">
+			<nav className="navbar navbar-back">
 			  <div className="container-fluid">
 			    <div className="navbar-header">
 			      <a className="navbar-brand" href="#">WebSiteName</a>
@@ -14,6 +14,7 @@ export default class NavBar extends React.Component {
 			      <li><a href="#">Link</a></li>
 			      <li><a href="#">Link</a></li>
 			    </ul>
+		
 			    <button className="btn btn-danger navbar-btn">Button</button>
 			  </div>
 			</nav>

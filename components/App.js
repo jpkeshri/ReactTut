@@ -1,10 +1,11 @@
 import React from 'react';
 // import Header from './Header'
 // import Footer from './Footer'
-import NavBar from './NavBar';
-import Container from './Container';
+//import NavBar from './NavBar';
+//import Container from './Container';
+import Carousel from './carousel'
 
-//import '../css/footer.css';
+import '../css/main.css';
 
 class App extends React.Component {
 
@@ -21,9 +22,10 @@ class App extends React.Component {
    render() {
       return (
          <div>
-          <NavBar />
-          <Container />
+         <Carousel />
          </div>
+
+         
       );
    }
 }
